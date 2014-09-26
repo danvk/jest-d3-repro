@@ -1,5 +1,6 @@
 /** @jsx React.DOM */
-var React = require('react/addons');
+var React = require('react/addons'),
+    d3 = require('d3');
 
 var CheckboxWithLabel = React.createClass({
   getInitialState: function() {
